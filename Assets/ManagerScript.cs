@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ManagerScript : MonoBehaviour
 {
@@ -13,8 +14,9 @@ public class ManagerScript : MonoBehaviour
     void Update()
     {
         if (lives <= 0) { 
-            Debug.Log("You lose"); 
+            Debug.Log("You lose");
             //Transition to Game Over scene
+            SceneManager.LoadScene("GameOverScene");
         }
 
     }
