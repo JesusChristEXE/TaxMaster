@@ -5,7 +5,7 @@ public class ManagerScript : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public int lives = 2;
-    public float currentTimer = 0;
+    
     public int scoreTracker=0;
     void Start()
     {
