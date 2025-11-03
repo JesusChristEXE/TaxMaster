@@ -37,12 +37,12 @@ public class GuardScript : MonoBehaviour
         //while not looking at the player
         if (LookingAtPlayer == false) {
             GuardTimerInactive -= Time.deltaTime; //start counting down the inactive timer
-            if (spriteRenderer.sprite != facingaway ||spriteRenderer.sprite!=sideview) {spriteRenderer.sprite = facingaway; }
+            if (spriteRenderer.sprite != facingaway ||spriteRenderer.sprite!=sideview) {spriteRenderer.sprite = facingaway; } //if not facing away or side view, set it to facing away
         }
 
         if (LookingAtPlayer == true) //while looking at the player
         {   GuardTimerActive-= Time.deltaTime; //starts counting down the active timer
-            if (spriteRenderer.sprite != facingplayer) { spriteRenderer.sprite = facingplayer; }
+            if (spriteRenderer.sprite != facingplayer) { spriteRenderer.sprite = facingplayer; } //if not facing player, faces player
             if (FurnaceScript.burningdoc == true) //if a document is burning at this time, lose a life
             {   ManagerScript.lives -= 1;  
                 FurnaceScript.burningdoc = false; //implemented so this code runs only once while the burning doc timer is going
