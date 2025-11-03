@@ -5,6 +5,8 @@ public class ManagerScript : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public int lives = 2;
+    public float currentTimer = 0;
+    public float scoreTracker=0;
     void Start()
     {
         
@@ -13,6 +15,7 @@ public class ManagerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (lives <= 0) { 
             Debug.Log("You lose");
             //Transition to Game Over scene
