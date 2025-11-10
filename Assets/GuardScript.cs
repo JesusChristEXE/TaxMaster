@@ -15,7 +15,7 @@ public class GuardScript : MonoBehaviour
     public float maxOffGuardTime =10;
 
     SpriteRenderer spriteRenderer;
-    public Sprite facingplayer;
+    public Sprite facingplayer; 
     public Sprite sideview;
     public Sprite facingaway;
     
@@ -23,11 +23,11 @@ public class GuardScript : MonoBehaviour
     public bool LookingAtPlayer= false;
     void Start()
     {
-        ManagerScript = FindFirstObjectByType<ManagerScript>();
-        FurnaceScript= FindFirstObjectByType<FurnaceScript>();
-        GuardTimerActive = Random.Range(minOnGuardTime, maxOnGuardTime);
-        GuardTimerInactive = Random.Range(minOffGuardTime, maxOffGuardTime);
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        ManagerScript = FindFirstObjectByType<ManagerScript>();//find its script to make changes to it
+        FurnaceScript= FindFirstObjectByType<FurnaceScript>();//find its script to make changes to it
+        GuardTimerActive = Random.Range(minOnGuardTime, maxOnGuardTime); //Guard's active timer, a random number between 2 selected floats in inspector 
+        GuardTimerInactive = Random.Range(minOffGuardTime, maxOffGuardTime);// same but for inactive;
+        spriteRenderer = GetComponent<SpriteRenderer>();//get the sprite component to make changes
 
     }
 
@@ -64,6 +64,8 @@ public class GuardScript : MonoBehaviour
             GuardTimerInactive = Random.Range(minOffGuardTime,maxOffGuardTime);//resets the timer to be used again later while the other one ticks down
             Debug.Log("Guard is Watching for:"+ GuardTimerActive);
         }
+
         if (GuardTimerInactive <= 5&& spriteRenderer.sprite!=sideview) { spriteRenderer.sprite = sideview; }
+        //if the guard's inactive timer is less than 5 AND the sprite is not the sideview, make it the sideview
     }
 }
