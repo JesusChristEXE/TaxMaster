@@ -17,7 +17,6 @@ public class CreateDocuments : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        Instantiate(document);//get the mouse position
+        Instantiate(document, transform.position+ new Vector3(0,1,0), Quaternion.identity);
     }
-    //private void 
 }
