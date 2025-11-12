@@ -970,6 +970,7 @@ MonoBehaviour:
   facingplayer: {fileID: 2157724753451915571, guid: ac7a86490a83402428995e9f634fa3f1, type: 3}
   sideview: {fileID: 7664525955122356969, guid: 5b2bdabb0c5c0a044ada6e8bc4b73730, type: 3}
   facingaway: {fileID: 3731907791604673201, guid: e29a29492285da7428f6f6f537e21c85, type: 3}
+  GuardCaught: {fileID: 2981678792536724941, guid: 2f93b063549ddb0408317886d9242044, type: 3}
   LookingAtPlayer: 0
 --- !u!1 &1151929066
 GameObject:
@@ -1448,13 +1449,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Document
       objectReference: {fileID: 0}
+    - target: {fileID: 3398878502925772602, guid: fab18fae0f95879409347344b3367155, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 691433045451749703, guid: e3f5a7fed6800fc4a85e1b6037457d0a, type: 3}
+    - target: {fileID: 4397067996561989745, guid: fab18fae0f95879409347344b3367155, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4397067996561989745, guid: fab18fae0f95879409347344b3367155, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4397067996561989745, guid: fab18fae0f95879409347344b3367155, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.21
+      value: -4.6824
       objectReference: {fileID: 0}
     - target: {fileID: 4397067996561989745, guid: fab18fae0f95879409347344b3367155, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.88
+      value: -0.4767
       objectReference: {fileID: 0}
     - target: {fileID: 4397067996561989745, guid: fab18fae0f95879409347344b3367155, type: 3}
       propertyPath: m_LocalPosition.z

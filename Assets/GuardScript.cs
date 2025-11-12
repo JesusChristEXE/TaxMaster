@@ -18,7 +18,7 @@ public class GuardScript : MonoBehaviour
     public Sprite facingplayer; 
     public Sprite sideview;
     public Sprite facingaway;
-    
+    public Sprite GuardCaught;
 
     public bool LookingAtPlayer= false;
     void Start()
@@ -42,9 +42,10 @@ public class GuardScript : MonoBehaviour
 
         if (LookingAtPlayer == true) //while looking at the player
         {   GuardTimerActive-= Time.deltaTime; //starts counting down the active timer
-            if (spriteRenderer.sprite != facingplayer) { spriteRenderer.sprite = facingplayer; } //if not facing player, faces player
-            if (FurnaceScript.burningdoc == true) //if a document is burning at this time, lose a life
+            if (spriteRenderer.sprite != facingplayer || spriteRenderer.sprite != GuardCaught) { spriteRenderer.sprite = facingplayer; } //if not facing player, faces player
+            if (FurnaceScript.burningdoc == true) //if a document is burning at this time, lose a life                
             {   ManagerScript.lives -= 1;  
+                spriteRenderer.sprite = GuardCaught;
                 FurnaceScript.burningdoc = false; //implemented so this code runs only once while the burning doc timer is going
                 Debug.Log("Lost a life!");
             }
