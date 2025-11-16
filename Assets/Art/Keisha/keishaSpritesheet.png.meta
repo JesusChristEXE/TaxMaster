@@ -1,0 +1,348 @@
+fileFormatVersion: 2
+guid: 002f2f0cb42dcf742b0f357e86dbe0d5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 342366629743359542
+    second: keishaSpritesheet_0
+  - first:
+      213: 5167838933814479788
+    second: keishaSpritesheet_1
+  - first:
+      213: 3549587105571242552
+    second: keishaSpritesheet_2
+  - first:
+      213: -3818582892537807147
+    second: keishaSpritesheet_3
+  - first:
+      213: -6455329929120720688
+    second: keishaSpritesheet_4
+  - first:
+      213: -1674204101150910866
+    second: keishaSpritesheet_5
+  - first:
+      213: 3872069484414007293
+    second: keishaSpritesheet_6
+  - first:
+      213: 9181626543819031638
+    second: keishaSpritesheet_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: keishaSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2164
+        width: 1922
+        height: 1082
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636fcc4c2a450c400800000000000000
+      internalID: 342366629743359542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keishaSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 2164
+        width: 1922
+        height: 1082
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab0272412ad7b740800000000000000
+      internalID: 5167838933814479788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keishaSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 3844
+        y: 2164
+        width: 1922
+        height: 1082
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83281ee7aaaa24130800000000000000
+      internalID: 3549587105571242552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keishaSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1082
+        width: 1922
+        height: 1082
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de76e8471ba10bc0800000000000000
+      internalID: -3818582892537807147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keishaSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 1082
+        width: 1922
+        height: 1082
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d8dfca91af0a66a0800000000000000
+      internalID: -6455329929120720688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keishaSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 3844
+        y: 1082
+        width: 1922
+        height: 1082
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e66d5658d3804c8e0800000000000000
+      internalID: -1674204101150910866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keishaSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1922
+        height: 1082
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df770245eaa5cb530800000000000000
+      internalID: 3872069484414007293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keishaSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 0
+        width: 1922
+        height: 1082
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65481acf1b0bb6f70800000000000000
+      internalID: 9181626543819031638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keishaSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 3844
+        y: 0
+        width: 1922
+        height: 1082
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278bcb56c5c005f40ae5815e111c2155
+      internalID: -1895728329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1d3df2bcbb363e141b7c2c2f75f80681
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      keishaSpritesheet_0: 342366629743359542
+      keishaSpritesheet_1: 5167838933814479788
+      keishaSpritesheet_2: 3549587105571242552
+      keishaSpritesheet_3: -3818582892537807147
+      keishaSpritesheet_4: -6455329929120720688
+      keishaSpritesheet_5: -1674204101150910866
+      keishaSpritesheet_6: 3872069484414007293
+      keishaSpritesheet_7: 9181626543819031638
+      keishaSpritesheet_8: -1895728329
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
