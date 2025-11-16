@@ -211,6 +211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75f91bbe43ab41041bf85b3fe9b73c1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   Kakarot: {fileID: 21300000, guid: e3f5a7fed6800fc4a85e1b6037457d0a, type: 3}
   KakarotStamped: {fileID: 21300000, guid: 5336417cb4c289447b1e8ec69656c681, type: 3}
   JohnSteward: {fileID: 0}
@@ -221,3 +222,15 @@ MonoBehaviour:
   KeishaSharkStamped: {fileID: 0}
   SusanTan: {fileID: 0}
   SusanTanStamped: {fileID: 0}
+=======
+  Kakarot: {fileID: 691433045451749703, guid: e3f5a7fed6800fc4a85e1b6037457d0a, type: 3}
+  KakarotStamped: {fileID: 1801328321221987380, guid: 5336417cb4c289447b1e8ec69656c681, type: 3}
+  JohnSteward: {fileID: -5841691568546554704, guid: 22f071a20e0b08c4e95000bf7c4e4b65, type: 3}
+  JohnStewardStamped: {fileID: 707191483542771914, guid: 755fb3dbf109e664ca51394699c25ab6, type: 3}
+  SelineHardy: {fileID: 3437193493797212852, guid: 5cb8c6e9db6e41149a219d65bc121d3b, type: 3}
+  SelineHardyStamped: {fileID: -4771325275083027957, guid: cd16147c64fcbc4438a0431a1963f77d, type: 3}
+  KeishaShark: {fileID: 6883981755736712062, guid: e1326ff333e5624479c7b18d175b345a, type: 3}
+  KeishaSharkStamped: {fileID: 8998016139433441810, guid: b59d380e8b7b02f4b80ff7105f7ee281, type: 3}
+  SusanTan: {fileID: -33161152521589953, guid: f1538199012e7b843b4fb6cc5ba1f415, type: 3}
+  SusanTanStamped: {fileID: 5274129028125635069, guid: 90b36ecd8aab55d47a3223a04412ea10, type: 3}
+>>>>>>> bad3b86605adbd9376c48684d884049bd532b4c9
