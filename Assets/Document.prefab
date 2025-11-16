@@ -81,12 +81,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e3f5a7fed6800fc4a85e1b6037457d0a, type: 3}
+  m_Sprite: {fileID: 691433045451749703, guid: e3f5a7fed6800fc4a85e1b6037457d0a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.92, y: 1.08}
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -130,8 +130,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.92, y: 1.08}
-    newSize: {x: 1.92, y: 1.08}
+    oldSize: {x: 0.984, y: 0.881}
+    newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -211,13 +211,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75f91bbe43ab41041bf85b3fe9b73c1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Kakarot: {fileID: 21300000, guid: e3f5a7fed6800fc4a85e1b6037457d0a, type: 3}
-  KakarotStamped: {fileID: 21300000, guid: 5336417cb4c289447b1e8ec69656c681, type: 3}
-  JohnSteward: {fileID: 0}
-  JohnStewardStamped: {fileID: 0}
-  SelineHardy: {fileID: 0}
-  SelineHardyStamped: {fileID: 0}
-  KeishaShark: {fileID: 0}
-  KeishaSharkStamped: {fileID: 0}
-  SusanTan: {fileID: 0}
-  SusanTanStamped: {fileID: 0}
+  Kakarot: {fileID: 691433045451749703, guid: e3f5a7fed6800fc4a85e1b6037457d0a, type: 3}
+  KakarotStamped: {fileID: 1801328321221987380, guid: 5336417cb4c289447b1e8ec69656c681, type: 3}
