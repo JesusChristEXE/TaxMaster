@@ -17,7 +17,7 @@ public class CreateDocuments : MonoBehaviour
     }
     private void OnMouseDown() //on clicking this object's boxcollider
     {
-        Instantiate(document, transform.position+ new Vector3(0,1,0), Quaternion.identity); 
+        Instantiate(document, transform.position+ new Vector3(1,1,0), Quaternion.identity); 
         //create the document object, at 1 unit above the document pile's object, with regular rotation
     }
 }

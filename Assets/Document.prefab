@@ -198,3 +198,7 @@ MonoBehaviour:
   KeishaSharkStamped: {fileID: 5167838933814479788, guid: 002f2f0cb42dcf742b0f357e86dbe0d5, type: 3}
   SusanTan: {fileID: 782839525378818269, guid: fef155e28bb3da241b9ddf910d12a767, type: 3}
   SusanTanStamped: {fileID: 2654350937517617884, guid: fef155e28bb3da241b9ddf910d12a767, type: 3}
+  Homeless: {fileID: 1683944709670118386, guid: b014806f54454f54890db502e6f163e9, type: 3}
+  HomelessStamped: {fileID: 2749688665960591968, guid: b014806f54454f54890db502e6f163e9, type: 3}
+  Normal: []
+  NormalStamped: []

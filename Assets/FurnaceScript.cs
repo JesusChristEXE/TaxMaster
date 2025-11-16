@@ -36,7 +36,7 @@ public class FurnaceScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Doc")) //if the object is a document
         {
             
-            Destroy(collision.gameObject); //destroy this object
+            
             burningdoc= true; //if you burn a document, it is starting to burn
             actualTimer = BurnTimerDefault; //If you burn a document, reset/refresh timer 
             managerScript.scoreTracker += 1;
