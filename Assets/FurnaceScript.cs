@@ -8,9 +8,11 @@ public class FurnaceScript : MonoBehaviour
     public float BurnTimerDefault = 1f;
     float actualTimer = 1f;
     ManagerScript managerScript;
+    
     void Start()
     {
         managerScript = FindFirstObjectByType<ManagerScript>();
+        
     }
 
     // Update is called once per frame
@@ -33,6 +35,7 @@ public class FurnaceScript : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Doc")) //if the object is a document
         {
+            
             Destroy(collision.gameObject); //destroy this object
             burningdoc= true; //if you burn a document, it is starting to burn
             actualTimer = BurnTimerDefault; //If you burn a document, reset/refresh timer 
