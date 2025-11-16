@@ -213,3 +213,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Kakarot: {fileID: 691433045451749703, guid: e3f5a7fed6800fc4a85e1b6037457d0a, type: 3}
   KakarotStamped: {fileID: 1801328321221987380, guid: 5336417cb4c289447b1e8ec69656c681, type: 3}
+  JohnSteward: {fileID: -8687900457362306760, guid: 46a86f05fe06c404d950d956038dea4f, type: 3}
+  JohnStewardStamped: {fileID: 6530698807363789208, guid: 46a86f05fe06c404d950d956038dea4f, type: 3}
+  SelineHardy: {fileID: -6179245270813199827, guid: 7c03cc46a0945054d839410cb3127021, type: 3}
+  SelineHardyStamped: {fileID: -1531044901105371096, guid: 7c03cc46a0945054d839410cb3127021, type: 3}
+  KeishaShark: {fileID: 342366629743359542, guid: 002f2f0cb42dcf742b0f357e86dbe0d5, type: 3}
+  KeishaSharkStamped: {fileID: 5167838933814479788, guid: 002f2f0cb42dcf742b0f357e86dbe0d5, type: 3}
+  SusanTan: {fileID: 782839525378818269, guid: fef155e28bb3da241b9ddf910d12a767, type: 3}
+  SusanTanStamped: {fileID: 2654350937517617884, guid: fef155e28bb3da241b9ddf910d12a767, type: 3}

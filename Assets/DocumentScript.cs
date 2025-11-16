@@ -1,8 +1,10 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class DocumentScript : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     SpriteRenderer spriteRenderer;
     Animator animator;
     public Sprite Kakarot;
@@ -20,16 +22,42 @@ public class DocumentScript : MonoBehaviour
     public Sprite SusanTan;
     public Sprite SusanTanStamped;
 
+    List<Sprite> Normal;
+    List<Sprite> NormalStamped;
+    int x;
+    
     void Start()
     {
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        Random.Range(1, 6);
+        Normal.Add(Kakarot);
+        Normal.Add(JohnSteward);
+        Normal.Add(SelineHardy);
+        Normal.Add(KeishaShark);
+        Normal.Add(SusanTan);
+
+        NormalStamped.Add(KakarotStamped);
+        NormalStamped.Add(JohnStewardStamped);
+        NormalStamped.Add(SelineHardyStamped);
+        NormalStamped.Add(KeishaSharkStamped);
+        NormalStamped.Add(SusanTanStamped);
+        x=Random.Range(1,Normal.Count+1);
+
+        spriteRenderer.sprite = Normal[x];
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        animator.Play("KakarotAnimationBurn");
+        
+        //animator.Play("KakarotAnimationBurn");
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Stamp")) //if the object is a document
+        {
+            spriteRenderer.sprite = NormalStamped[x];
+        }
     }
 }
