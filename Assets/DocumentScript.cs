@@ -6,7 +6,7 @@ public class DocumentScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     SpriteRenderer spriteRenderer;
-    Animator animator;
+    //Animator animator;
     public Sprite Kakarot;
     public Sprite KakarotStamped;
 
@@ -22,13 +22,13 @@ public class DocumentScript : MonoBehaviour
     public Sprite SusanTan;
     public Sprite SusanTanStamped;
 
-    List<Sprite> Normal;
-    List<Sprite> NormalStamped;
+    public List<Sprite> Normal;
+    public List<Sprite> NormalStamped;
     int x;
     
     void Start()
     {
-        animator = GetComponent<Animator>();
+        //animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         Normal.Add(Kakarot);
         Normal.Add(JohnSteward);
@@ -41,7 +41,8 @@ public class DocumentScript : MonoBehaviour
         NormalStamped.Add(SelineHardyStamped);
         NormalStamped.Add(KeishaSharkStamped);
         NormalStamped.Add(SusanTanStamped);
-        x=Random.Range(1,Normal.Count+1);
+
+        x=Random.Range(0,Normal.Count+1);
 
         spriteRenderer.sprite = Normal[x];
         
