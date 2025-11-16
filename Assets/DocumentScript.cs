@@ -30,6 +30,13 @@ public class DocumentScript : MonoBehaviour
     public List<Sprite> NormalStamped;
     int x;
     public float docburntimer = 1;
+
+    public GameObject KakarotBurn;
+    public GameObject JohnStewardBurn;
+    public GameObject SelineHardyBurn;
+    public GameObject KeishaSharkBurn;
+    public GameObject SusanTanBurn;
+    public GameObject HomelessBurn;
     
     void Start()
     {
@@ -53,9 +60,8 @@ public class DocumentScript : MonoBehaviour
         NormalStamped.Add(HomelessStamped);
 
         //random number generator selecting which item in the list to implement
-        x=Random.Range(0,Normal.Count+1);
+        x=Random.Range(0,Normal.Count);
         spriteRenderer.sprite = Normal[x];
-        
     }
 
     // Update is called once per frame
@@ -74,12 +80,13 @@ public class DocumentScript : MonoBehaviour
         {
             //depending on which number on the list it is in, create an object that plays this animation
             //(the object should be destoryed after anumation is done)
-            if (x == 0) { }
-            else if (x == 1) { }
-            else if (x == 2) { }
-            else if (x == 3) { }
-            else if (x == 4) { }
-            else { }
+            if (x == 0) { Instantiate(KakarotBurn,transform.position,Quaternion.identity); }
+            else if (x == 1) { Instantiate(JohnStewardBurn, transform.position, Quaternion.identity); }
+            else if (x == 2) { Instantiate(SelineHardyBurn, transform.position, Quaternion.identity); }
+            else if (x == 3) { Instantiate(KeishaSharkBurn, transform.position, Quaternion.identity); }
+            else if (x == 4) { Instantiate(SusanTanBurn, transform.position, Quaternion.identity); }
+            else { Instantiate(HomelessBurn, transform.position, Quaternion.identity); }
+            Destroy(gameObject);
         }
     }
 }

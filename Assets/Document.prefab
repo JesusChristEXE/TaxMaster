@@ -202,3 +202,10 @@ MonoBehaviour:
   HomelessStamped: {fileID: 2749688665960591968, guid: b014806f54454f54890db502e6f163e9, type: 3}
   Normal: []
   NormalStamped: []
+  docburntimer: 1
+  KakarotBurn: {fileID: 8725730587720948335, guid: a05d59de990a2a444ad8600a9f1abd0f, type: 3}
+  JohnStewardBurn: {fileID: 7176834331936479286, guid: 401e5847143dd4844b5bb478bdac6824, type: 3}
+  SelineHardyBurn: {fileID: 400881230265503895, guid: 891768837576e564aa6b1c210defaa65, type: 3}
+  KeishaSharkBurn: {fileID: 8734850174700017905, guid: 2a650f5d673dd154ba1f4a147f9fcb8d, type: 3}
+  SusanTanBurn: {fileID: 8742423684189439819, guid: 3c2a2b8495bd09e4ba68ff616fc8202d, type: 3}
+  HomelessBurn: {fileID: 8107390096625119102, guid: 7d2107f175bf7684fbad854f7c3811c1, type: 3}
